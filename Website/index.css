@@ -1,0 +1,76 @@
+html {
+	display:         flex;
+	height:          100%;
+	justify-content: center;
+	font-family:     sans-serif;
+	color:           #eee;
+	background:      black url("bg.jpg") no-repeat fixed center;
+	background-size: cover;
+}
+
+html::before {
+	content:    "";
+	position:   fixed;
+	width:      100%;
+	height:     100%;
+	background: #000;
+	opacity:    0.75;
+	z-index:    -1;
+}
+
+
+body {
+	display:        flex;
+	flex-direction: column;
+	align-items:    center;
+}
+
+
+a, a:visited {
+	font-family: Calibri;
+}
+
+a:hover {
+	color: #d2a5ff;
+}
+
+
+#heading {
+	font-family: Lucida Handwriting;
+	font-size: 10em;
+	white-space: nowrap;
+}
+
+#inpage {
+	font-size: 2em;
+	white-space: nowrap;
+	color:       #fc54fc;	
+}
+
+#download {
+	font-family: monospace;
+	font-size:   3em;
+	color:       #2cff5d;
+}
+
+
+#links {
+	display:   flex;
+	font-size: 3em;
+	gap:       0.7em;
+}
+
+#title {
+
+	color:       #fca800;
+	font-family: meiryo UI;
+	font-size: 2em;
+	gap:       0.7em;
+}
+
+#info {
+	color:       #fc5454;
+	font-family: meiryo UI;
+	font-size: 1em;
+	gap:       0.7em;
+}
