@@ -1,32 +1,34 @@
 html {
-	display:         flex;
-	height:          100%;
+	display: flex;
+	height: 100%;
 	justify-content: center;
-	font-family:     sans-serif;
-	color:           #eee;
-	background:      black url("bg.jpg") no-repeat fixed center;
+	font-family: sans-serif;
+	color: #eee;
+	background: black url("bg.jpg") no-repeat fixed center;
 	background-size: cover;
 }
 
 html::before {
-	content:    "";
-	position:   fixed;
-	width:      100%;
-	height:     100%;
+	content: "";
+	position: fixed;
+	width: 100%;
+	height: 100%;
 	background: #000;
-	opacity:    0.75;
-	z-index:    -1;
+	opacity: 0.75;
+	z-index: -1;
 }
 
 
 body {
-	display:        flex;
+	display: flex;
 	flex-direction: column;
-	align-items:    center;
+	align-items: center;
 }
 
 
-a, a:visited {
+a,
+a:visited {
+	color: #316BFC;
 	font-family: Calibri;
 }
 
@@ -44,33 +46,39 @@ a:hover {
 #inpage {
 	font-size: 2em;
 	white-space: nowrap;
-	color:       #fc54fc;	
+	color: #fc54fc;
 }
 
 #download {
 	font-family: monospace;
-	font-size:   3em;
-	color:       #2cff5d;
+	font-size: 3em;
+	color: #2cff5d;
 }
 
 
 #links {
-	display:   flex;
+	display: flex;
 	font-size: 3em;
-	gap:       0.7em;
+	gap: 0.7em;
 }
 
 #title {
 
-	color:       #fca800;
+	color: #fca800;
 	font-family: meiryo UI;
 	font-size: 2em;
-	gap:       0.7em;
+	gap: 0.7em;
 }
 
 #info {
-	color:       #fc5454;
+	color: #fc5454;
 	font-family: meiryo UI;
 	font-size: 1em;
-	gap:       0.7em;
+	gap: 0.7em;
+}
+
+.ts {
+	text-align: center;
+	font-size: 5;
+	color: red;
 }
